@@ -1,0 +1,23 @@
+body{
+    padding:10px 80px;
+    background-color:rgb(196, 228, 196);;
+  }
+  
+  #survey-form{
+    background-color:rgb(185, 129, 138);
+    color:white;
+    padding:20px;
+  }
+  
+  #name,#email,#number,#dropdown,#comment-section{
+    width:100%;
+  }
+  
+  #submit{
+    width:100%;
+    background-color:green;
+  }
+  
+  h1,p{
+    text-align:center;
+  }

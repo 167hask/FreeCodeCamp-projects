@@ -1,0 +1,12 @@
+#include <stdio.h>
+//area of square
+int main(){
+    int a,b;
+    printf("Enter length=");
+    scanf("%d",&a);
+    printf("Enter breath=");
+    scanf("%d",&b);
+
+    printf("Perimeter of rectangle:%d", (2a+2b));
+    return 0;
+}
