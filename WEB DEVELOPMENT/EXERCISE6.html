@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar using flexbox</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0%;
+      }
+      :root {
+        --pricolor: rgba(165, 42, 42, 0.847);
+        --seccolor: rgba(165, 42, 42, 0.42);
+        --tercolor: rgba(191, 192, 228, 0.811);
+      }
+      body {
+        background-color: var(--seccolor);
+      }
+      .Navbar {
+        background-color: var(--pricolor);
+      }
+      ul {
+        display: flex;
+      }
+      li {
+        display: block;
+        padding: 12px;
+        margin: 10px;
+        font-size: large;
+        list-style-type: none;
+      }
+      li:hover {
+        height: 100%;
+        width: 100%;
+        background-color: var(--tercolor);
+      }
+      h1 {
+        margin: 40px;
+        padding: 22px;
+        text-align: center;
+      }
+      p {
+        margin-top: -55px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="Navbar">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Products</li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1>
+        A versatile text editor that you can use anywhere for almost everything.
+      </h1>
+      <p>
+        A wealth of functionality that can slot in and out of your workflow.
+      </p>
+    </main>
+  </body>
+</html>
